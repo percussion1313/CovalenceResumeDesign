@@ -1,14 +1,186 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Resume</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>ResumePart2</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <div id='container'></div>
-    
+
+<body class="container">
+    <div class='row header'>
+        <div class='logo-left float-left col-md-3 text-center'>
+            <div class='name-logo-spacing'>
+                <span class='inline-block'>Peter Grant</span>
+                <img src="https://png.icons8.com/ios/50/000000/sound-surround-filled.png">
+            </div>
+        </div>
+        <nav class="nav navbar-default" style="margin-top:30px;">
+            <a class="nav-link inline-block top-nav" href="#">About</a>
+            <a class="nav-link inline-block top-nav" href="#experience">Experience</a>
+            <a class="nav-link inline-block top-nav" href="#work">Work</a>
+            <a class="nav-link inline-block top-nav" href="#">Contact</a>
+        </nav>
+    </div>
+    <div id='about' class='row about-me'>
+        <div class='col-md-6'>
+            <img class='headshot img-fluid rounded mx-auto' src="https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-9/13507212_649756618506894_7039424108200008018_n.jpg?_nc_cat=0&oh=18ae4b1558354d371e4e18d5926ced19&oe=5BB9A293"
+                alt="myface">
+        </div>
+        <div class='col-md-6'>
+            <h1 class=' col-md-12 main-text float-right'>Developer, Designer, & Musician</h1>
+            <h4 class=' col-md-12 location-text float-right font-weight-bold'>CURRENTLY IN BIRMINGHAM, AL</h4>
+        </div>
+    </div>
+    <div id='experience' class='row info-box container-fluid'>
+        <div class='col-md-6 greeting'>
+            <h2 class='greeting-text'>Hello</h2>
+            <p class="firstname-lastname">PETER GRANT</p>
+            <p class="school-info">University of Alabama</p>
+            <p class="school-info">Bachelor of Arts</p>
+        </div>
+        <div class='info-paragraph col-md-6'>
+            <p class='info-padding'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec mattis magna. Suspendisse facilisis posuere
+                nibh, lacinia posuere erat sollicitudin sit amet. Donec quis consequat est. Curabitur quis elit tincidunt,
+                varius justo lacinia, auctor orci. Ut accumsan accumsan nisl. Phasellus scelerisque lacus eget lacus laoreet,
+                ac varius ante porttitor. Integer nec nulla fringilla, placerat metus quis, suscipit sapien. Nulla facilisi.
+            </p>
+        </div>
+    </div>
+    <div id='work' class="row cards">
+        <div class="card col-md-6 border-0">
+            <div class="card-body">
+                <div>
+                    <h3 class="card-title">TicketBiscuit</h3>
+                    <a href="https://www.ticketbiscuit.com/'" target="_blank">
+                        <img class='card-image' src="file:///Users/petergrant/Desktop/Source/CovalenceResumeDesignPart2/linkdarkgray.svg" />
+                    </a>
+                </div>
+                <div class='card-line'>
+                </div>
+                <p class="card-text">Sed dignissim quam lectus, eget mollis erat ultrices commodo. Sed urna urna, egestas id magna eget, auctor
+                    facilisis urna. Vestibulum interdum ullamcorper massa. Praesent sodales est sed massa finibus, at auctor
+                    orci volutpat. Vestibulum vitae lacus commodo velit ullamcorper faucibus nec vel orci. In tincidunt convallis
+                    felis, eget finibus velit pellentesque posuere. Phasellus eros nulla, finibus eget volutpat sit amet,
+                    auctor ac arcu. Donec molestie id ligula id pretium.
+                </p>
+
+
+            </div>
+        </div>
+        <div class="card col-md-6 border-0">
+            <div class="card-body">
+                <h3 class="card-title">Raglan Road</h3>
+                <a href="http://www.raglanroad.com/" target="_blank">
+                    <img class='card-image' src="file:///Users/petergrant/Desktop/Source/CovalenceResumeDesignPart2/linkdarkgray.svg" />
+                </a>
+                <div class='card-line'></div>
+                <p class="card-text">Pellentesque ornare, velit accumsan condimentum ullamcorper, diam tortor iaculis metus, eu imperdiet leo
+                    dolor ut augue. Nam urna lacus, sollicitudin non nulla consectetur, dapibus scelerisque nisl. Suspendisse
+                    eget varius augue. Sed iaculis efficitur mi, sit amet egestas dolor lacinia id. Sed dignissim libero
+                    a tortor luctus, id sodales magna pretium. Sed porttitor lorem ac ligula convallis eleifend. Aenean sit
+                    amet dolor massa. Morbi varius rhoncus est, a dignissim lacus venenatis ornare. Nulla magna felis, imperdiet
+                    eget nulla at, condimentum sagittis orci.
+                </p>
+            </div>
+        </div>
+        <div class="card col-md-6 border-0">
+            <div class="card-body">
+                <h3 class="card-title">Universal Studios</h3>
+                <a href="https://www.universalorlando.com/web/en/us/index.html/" target="_blank">
+                    <img class='card-image' src="file:///Users/petergrant/Desktop/Source/CovalenceResumeDesignPart2/linkdarkgray.svg" />
+                </a>
+                <div class='card-line'></div>
+                <p class="card-text">Aliquam erat volutpat. Sed eu lacus leo. Suspendisse ullamcorper erat eu sem volutpat molestie eu ac leo.
+                    Ut in ante mollis, volutpat ipsum ut, viverra lectus. Donec sed ultrices nisi. Nam vel velit vestibulum,
+                    consectetur massa sit amet, dapibus ante. Morbi aliquam id orci et congue. Phasellus eu iaculis lorem,
+                    id malesuada turpis. Nullam a ante in libero consequat porttitor. Maecenas eget nibh vel velit porttitor
+                    elementum sed nec sem. Aliquam finibus ac mi eu eleifend. Praesent tempor pharetra arcu, ac congue risus.
+                    Sed nulla mauris, varius ut aliquam non, pellentesque sit amet mauris. Aliquam a turpis vitae ipsum cursus
+                    varius. Nulla facilisi.</p>
+            </div>
+        </div>
+        <div class="card col-md-6 border-0">
+            <div class="card-body">
+                <h3 class="card-title">Tuscaloosa Amphitheater</h3>
+                <a href="http://www.tuscaloosaamphitheater.com/" target="_blank">
+                    <img class='card-image' src="file:///Users/petergrant/Desktop/Source/CovalenceResumeDesignPart2/linkdarkgray.svg" />
+                </a>
+                <div class='card-line'></div>
+                <p class="card-text">Cras feugiat, magna tempor ornare maximus, augue nisl tempus augue, in vestibulum lacus tellus in est. Nulla
+                    nec neque id turpis efficitur faucibus. Donec tortor magna, pretium at mattis at, placerat nec ex. Praesent
+                    vel sem at nisi bibendum volutpat. Aliquam ornare pulvinar eleifend. Vestibulum ante ipsum primis in
+                    faucibus orci luctus et ultrices posuere cubilia Curae; Cras vel enim elementum, egestas enim eget, facilisis
+                    mauris.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div id='work-images' class='' margin>
+        <div class="row border-0 full-width">
+            <div class="col-md-4 image-height">
+                <img src="https://media.istockphoto.com/photos/tell-me-more-about-this-picture-id541113838?k=6&m=541113838&s=612x612&w=0&h=i5zeSKbJjbX2GLDOVMuEljMujuXaoCDy4MBtT61XiK4="
+                    alt="business" style="width:110%">
+            </div>
+            <div class="col-md-4 image-height">
+                <img src="https://secure.parksandresorts.wdpromedia.com/media/disneyparks/blog/wp-content/uploads/2011/07/rrh013938LARGE.jpg"
+                    alt="food" style="width:110%">
+            </div>
+            <div class="col-md-4 image-height">
+                <img src="https://orlandoinformer.com/wp-content/uploads/2015/09/UNIVERSAL-14_Universals-Superstar-Parade.jpg" alt="parade"
+                    style="width:110%">
+            </div>
+            <div class="col-md-12 image-height mx-auto d-block">
+                <img src="http://www.neel-schaffer.com/wp-content/uploads/2016/01/Tuscaloosa-Amphitheater-1920x750.jpg" alt="parade" style="width:100%">
+            </div>
+        </div>
+    </div>
+
+    <div id='contact' class='row contact-text m-5'>
+        <div>
+            <h2 class='float-left display-2'>Let's Talk</h2>
+        </div>
+        <div class="container">
+            <form action="action_page.php">
+
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+                <input class='float-right' type="submit" value="Send">
+
+            </form>
+        </div>
+    </div>
+    <div class='footer-line'></div>
+    <div id='footer' class='text-center'>
+        <div class='row text-center'>
+            <img class='footer-image' src="file:///Users/petergrant/Desktop/Source/CovalenceResumeDesignPart2/images/icons/dribble.svg" />
+                <p class='footer-text col-md-4'>THANKS FOR VISITING!</p>
+            <img class='footer-image' src="file:///Users/petergrant/Desktop/Source/CovalenceResumeDesignPart2/images/icons/instagram.svg" />
+        </div>
+    </div>
+
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
+
 </body>
+
 </html>
